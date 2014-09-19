@@ -6,8 +6,8 @@ PROJECTDIR=`pwd`
 g++ -g -o $PROJECTDIR/bin/wsconsumer                                      \
 	$PROJECTDIR/*.cpp                                                     \
 	                                                                      \
-	-I/home/rolice/Development/Desktop/libwebsocket                       \
-	-L/home/rolice/Development/Desktop/libwebsocket/bin                   \
+	-I../libwebsocket                                                     \
+	-L../libwebsocket/bin                                                 \
 	-lwebsocket
 
 ENDTIME=$(date +%s)
